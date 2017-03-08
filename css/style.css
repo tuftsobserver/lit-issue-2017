@@ -5,52 +5,57 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Vollkorn", serif;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 16px;
 }
 
-
+section {
+	width: 100%;
+}
 
 /*title of article*/
 h1 {
-	font-family: "Ubuntu", sans-serif;
-	font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+	font-size: 36px;
 }
 
 /*author of article*/
-h2{
-	font-family: "Ubuntu", sans-serif;
-	font-size: 20px;
-
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+	font-size: 24px;
 }
 
 /*article text*/
 p {
-
+  line-height: 1.5;
 }
 
 /*Always do this for sections in your page!*/
 /*keep in order of actual page for organization*/
 
 #toc h1
-#toc h2 
+#toc h2
 #toc p
 
+/* SECTION ONE START through our last mother*/
+
 #editor-note h1
-#editor-note h2 
+#editor-note h2
 #editor-note p
 
-
 #kriska h1
-#kriska h2 
+#kriska h2
 #kriska p
 
 
+/* SECTION TWO START through Fault line swell */
 
 
+/* SECTION THREE START through curly hair routine */
 
 
+/* SECTION FOUR START through mother */
 
-
-
-
+/* SECTION FIVE START through parting shot */

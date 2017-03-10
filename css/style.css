@@ -5,11 +5,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Vollkorn", serif;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 16px;
 
 }
-section { 
+section {
 	width: 100%;
  }
 /*title of article*/
@@ -17,13 +17,22 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 36px;
+	font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+	font-size: 36px;
+
 }
 
 /*author of article*/
 h2{
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 24px;
+=======
+	font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+	font-size: 24px;
 
 }
 /*article text*/
@@ -33,9 +42,14 @@ p {
 
 /*Always do this for sections in your page!*/
 /*keep in order of actual page for organization*/
+
 /*#toc body
 #toc h1
 #toc h2 
+=======
+
+/*#toc h1
+#toc h2
 #toc p*/
 
 /*<!-- SECTION ONE START letter to editor through all grown up-->
@@ -77,7 +91,8 @@ p {
 }
 
 #black_life_title {
-   background-image: url("black_life_title.jpg"); 
+ 
+   background-image: url( ../images/black_life_title.jpg); 
    background-position: right; 
    margin-left: 2%; 
 }
@@ -85,9 +100,9 @@ p {
 #spectacle_of_black_life p { 
     margin-left: 10%;
     margin-right: 10%;
-
 }
  
+
 
  /* <!-- SECTION TWO START etsi udiditlv through blackberries & brown sugar-->
 
@@ -95,16 +110,39 @@ p {
   <!-- SECTION THREE START, mary's grandbaby through limbo -->
 
 
-  <!-- SECTION FOUR START A slow brunch through a guide to helping depressed parents-->
+<!-- SECTION FOUR START A slow brunch through a guide to helping depressed parents-->*/
 
+#slow-brunch {
+  background-color: #e0d1e6;
+  padding: 2rem 0;
+}
 
-  <!-- SECTION FIVE START unmasked friend through a future maybe-->*/
+#slow-brunch .container {
+  max-width: 1170px;
+}
 
+#slow-brunch h1 {
+  color: #8592c9;
+  font-size: 50px;
+  margin-top: 0;
+}
 
+#slow-brunch .article {
+  max-width: 500px;
+  background-color: rgba(224, 209, 230, 0.75);
+  padding: 0 1rem 1rem;
+  margin: 0 auto;
+}
 
+#slow-brunch img {
+  width: 100%;
+  height: auto;
+}
 
+@media (min-width: 768px) {
+  #slow-brunch img {
+    width: 200%;
+  }
+}
 
-
-
-
-
+  /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/

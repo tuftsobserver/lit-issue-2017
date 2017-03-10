@@ -7,23 +7,25 @@ body {
   font-family: "Vollkorn", serif;
   font-weight: 400; 
   font-size: 16px;
+
 }
 section { 
 	width: 100%;
  }
 /*title of article*/
 h1 {
-	font-family: "Ubuntu", sans-serif;
-	font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
 }
 
 /*author of article*/
 h2{
-	font-family: "Ubuntu", sans-serif;
-	font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
 
 }
-
 /*article text*/
 p {
 
@@ -31,23 +33,60 @@ p {
 
 /*Always do this for sections in your page!*/
 /*keep in order of actual page for organization*/
-
+/*#toc body
 #toc h1
 #toc h2 
-#toc p
+#toc p*/
 
 /*<!-- SECTION ONE START letter to editor through all grown up-->
 */
-#editor-note h1
-#editor-note h2 
-#editor-note p
 
-#kriska h1
-#kriska h2 
-#kriska p
+/*helpful: https://www.w3schools.com/cssref/pr_background-position.asp*/
+#editor-note {
+  background-image: url(../images/letter-to-editor-2.png);
+  background-repeat: no-repeat;
 
+ /* background-position: 0% 100%;*/
+}
 
+#editor-note h1 {
+  text-align: left;
+  margin-left: 10%;
+  font-size: 45px;
 
+}
+#editor-note p {
+  margin-right: 20% ;
+  margin-left: 40%;
+  text-align: left;
+}
+
+#spectacle_of_black_life h1 {
+  padding-top: 10%; 
+  color: white;
+  text-align:center;
+  text-align: right;
+  margin-right: 10%;
+}
+#spectacle_of_black_life h2 {
+    color: white;
+    text-align:center;
+    padding-bottom: 10%; 
+    text-align: right;
+    margin-right: 10%;
+}
+
+#black_life_title {
+   background-image: url("black_life_title.jpg"); 
+   background-position: right; 
+   margin-left: 2%; 
+}
+
+#spectacle_of_black_life p { 
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
  
 
  /* <!-- SECTION TWO START etsi udiditlv through blackberries & brown sugar-->

@@ -7,32 +7,24 @@ body {
   font-family: "Vollkorn", serif;
   font-weight: 400;
   font-size: 16px;
-
 }
+
 section {
-	width: 100%;
- }
+  width: 100%;
+}
+
 /*title of article*/
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 36px;
-	font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-	font-size: 36px;
-
 }
 
 /*author of article*/
-h2{
-<<<<<<< HEAD
+h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 24px;
-=======
-	font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-	font-size: 24px;
 
 }
 /*article text*/

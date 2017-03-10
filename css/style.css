@@ -38,7 +38,6 @@ p {
 /*#toc body
 #toc h1
 #toc h2
-=======
 
 /*#toc h1
 #toc h2
@@ -169,7 +168,7 @@ p {
   padding-top: 20vh;
   border-top: 10px solid #f9f2a2;
   border-bottom: 40px solid white;
-  
+
 }
 
 #big-chop h1 {
@@ -194,7 +193,7 @@ p {
 }
 
 #big-chop-text {
-  width: 40vw; 
+  width: 40vw;
   margin-left: 10vw;
 
 }

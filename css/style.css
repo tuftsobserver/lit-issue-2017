@@ -37,7 +37,7 @@ p {
 
 /*#toc body
 #toc h1
-#toc h2 
+#toc h2
 =======
 
 /*#toc h1
@@ -68,7 +68,7 @@ p {
 }
 
 #spectacle_of_black_life h1 {
-  padding-top: 10%; 
+  padding-top: 10%;
   color: white;
   text-align:center;
   text-align: right;
@@ -77,23 +77,23 @@ p {
 #spectacle_of_black_life h2 {
     color: white;
     text-align:center;
-    padding-bottom: 10%; 
+    padding-bottom: 10%;
     text-align: right;
     margin-right: 10%;
 }
 
 #black_life_title {
- 
-   background-image: url( ../images/black_life_title.jpg); 
-   background-position: right; 
-   margin-left: 2%; 
+
+   background-image: url( ../images/black_life_title.jpg);
+   background-position: right;
+   margin-left: 2%;
 }
 
-#spectacle_of_black_life p { 
+#spectacle_of_black_life p {
     margin-left: 10%;
     margin-right: 10%;
 }
- 
+
 
 
  /* <!-- SECTION TWO START etsi udiditlv through blackberries & brown sugar-->
@@ -198,6 +198,57 @@ p {
 
 /*----------------*/
 
+#keep-love {
+  background: url(../images/gray-bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 2rem;
+}
+
+#keep-love h1 {
+  margin-top: 0;
+  font-size: 60px;
+}
+
+#keep-love .red {
+  color: #a60c26;
+}
+
+#keep-love img {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  margin: 2rem auto;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 580px) {
+  #keep-love img {
+    width: 90%;
+  }
+}
+
+
+/*----------------*/
+
+#colored-women {
+  text-align: center;
+  background: white;
+}
+
+#colored-women h1 {
+  margin-top: 0;
+}
+
+
+/*----------------*/
+
 #guide-parents {
   padding: 2rem 0;
   background-color: black;
@@ -220,6 +271,12 @@ p {
   margin: 1.5rem auto 0;
   padding: 0.5rem;
   background-color: white;
+}
+
+@media (max-width: 991px) {
+  #guide-parents h1 {
+    font-size: 50px;
+  }
 }
 
   /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/

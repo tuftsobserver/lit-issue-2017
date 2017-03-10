@@ -21,7 +21,6 @@ h1 {
 h2{
 	font-family: "Ubuntu", sans-serif;
 	font-size: 20px;
-
 }
 
 /*article text*/
@@ -46,21 +45,58 @@ p {
 #kriska h2 
 #kriska p
 
+/*<!-- SECTION TWO START etsi udiditlv through blackberries & brown sugar-->*/
 
 
- 
+/*<!-- SECTION THREE START, mary's grandbaby through limbo -->*/
 
- /* <!-- SECTION TWO START etsi udiditlv through blackberries & brown sugar-->
+#carissa h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 54px;
+}
+#carissa h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+#carissa p {}
+
+#carissa .title {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+#carissa {
+  background-color: rgba(255,218,185, 0.3);
+  background-image: url('../images/PHOTO%20summer%20-%20Madeline%20Lee.png');
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: 0vw 80vw;
+  background-size: 100vw;
+}
+
+#carissa .column {
+  width: 45vw;
+  float:left
+}
 
 
-  <!-- SECTION THREE START, mary's grandbaby through limbo -->
+#carissa .poem {
+  margin: 20px 40px 0px 40px;
+}
+
+#carissa #summer_img {
+  width: 100vw;
+  z-index: 3;
+}
 
 
-  <!-- SECTION FOUR START A slow brunch through a guide to helping depressed parents-->
 
 
-  <!-- SECTION FIVE START unmasked friend through a future maybe-->*/
+/*<!-- SECTION FOUR START A slow brunch through a guide to helping depressed parents-->*/
 
+
+/*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/
 
 
 

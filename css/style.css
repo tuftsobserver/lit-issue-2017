@@ -34,19 +34,19 @@ p {
 /*Always do this for sections in your page!*/
 /*keep in order of actual page for organization*/
 
-#toc h1
+/*#toc h1
 #toc h2
-#toc p
+#toc p*/
 
 /*<!-- SECTION ONE START letter to editor through all grown up-->
 */
-#editor-note h1
+/*#editor-note h1
 #editor-note h2
 #editor-note p
 
 #kriska h1
 #kriska h2
-#kriska p
+#kriska p*/
 
 
 
@@ -58,7 +58,39 @@ p {
   <!-- SECTION THREE START, mary's grandbaby through limbo -->
 
 
-  <!-- SECTION FOUR START A slow brunch through a guide to helping depressed parents-->
+<!-- SECTION FOUR START A slow brunch through a guide to helping depressed parents-->*/
 
+#slow-brunch {
+  background-color: #e0d1e6;
+  padding: 2rem 0;
+}
 
-  <!-- SECTION FIVE START unmasked friend through a future maybe-->*/
+#slow-brunch .container {
+  max-width: 1170px;
+}
+
+#slow-brunch h1 {
+  color: #8592c9;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+#slow-brunch .article {
+  max-width: 500px;
+  background-color: rgba(224, 209, 230, 0.75);
+  padding: 0 1rem 1rem;
+  margin: 0 auto;
+}
+
+#slow-brunch img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  #slow-brunch img {
+    width: 200%;
+  }
+}
+
+  /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/

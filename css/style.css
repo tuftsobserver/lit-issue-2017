@@ -46,12 +46,13 @@ p {
 /*<!-- SECTION ONE START letter to editor through all grown up-->
 */
 
-/*helpful: https://www.w3schools.com/cssref/pr_background-position.asp*/
-#editor-note {
-  background-image: url(../images/letter-to-editor-2.png);
-  background-repeat: no-repeat;
 
- /* background-position: 0% 100%;*/
+#editor-note {
+  background: url("../images/letter-to-editor-2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #editor-note h1 {
@@ -63,7 +64,7 @@ p {
 #editor-note p {
   margin-right: 20% ;
   margin-left: 40%;
-  text-align: left;
+  text-align: right;
 }
 
 #spectacle_of_black_life h1 {
@@ -92,6 +93,72 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+#rain #p_text{
+  background-image: url("../images/Rain_Cecily_Lo.jpg");
+  background-size: auto 70vh;
+  margin-top: 10vh; 
+  margin-bottom: 15vh;   
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#rain h1 {
+  padding-top: 10vh;
+  text-align: left;
+  margin-left: 15vw; 
+}
+#rain h2 {
+  text-align: left;
+  margin-left: 15vw; 
+}
+
+#rain p {
+  text-align: right;
+  margin-right: 15vw;
+}
+#rain #p_text { 
+  padding-top: 30vh; 
+
+}
+
+#all_grown_up {
+  background: url("../images/Liza_Leonard.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#all_grown_up h1 {
+  /*text-align: bottom-left;*/
+  font-size: 90px;
+  color: white;
+  text-align: left; 
+  margin-left: 7vw; 
+}
+
+#all_grown_up h2 {
+  text-align: left;
+  color: white;
+  padding-bottom: 10%; 
+  margin-left: 7vw; 
+  padding-top: 5vh
+}
+
+#all_grown_up p{
+  color: white;
+}
+
+#all_grown_up .col-sm-4 {
+  padding-top: 15vh;
+  background-color: rgb(57, 172, 115); 
+  text-align: center; 
+}
+
+
+
+
 
 
 

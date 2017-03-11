@@ -363,13 +363,12 @@ p {
 /*----------------*/
 
 #keep-love {
-  background: url(../images/gray-bg.png) no-repeat center center fixed;
+  padding: 2rem;
+  background: url(../images/gray-bg.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  padding: 2rem;
 }
 
 #keep-love h1 {
@@ -403,31 +402,68 @@ p {
 
 #colored-women {
   text-align: center;
-  background: white;
+  color: white;
+  margin: 0;
+  padding: 2rem;
+
+  background: url(../images/clouds1.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #colored-women h1 {
   margin-top: 0;
+  font-size: 60px;
 }
+
+#colored-women .clouds2 {
+  height: 15rem;
+  width: 100%;
+
+  background: url(../images/clouds2.jpg) no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#colored-women .clouds1 {
+  height: 15rem;
+  width: 100%;
+
+  margin: 1rem 0;
+
+  background: url(../images/clouds2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 
 /*----------------*/
 
 #guide-parents {
   padding: 2rem 0;
-  background-color: black;
+  background: url(../images/bedroom.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #guide-parents h1 {
   margin-top: 0;
-  color: white;
   font-size: 75px;
   text-align: center;
+  color: white;
 }
 
 #guide-parents h2 {
-  color: white;
   text-align: center;
+  color: white;
 }
 
 #guide-parents p {

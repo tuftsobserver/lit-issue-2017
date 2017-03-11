@@ -444,3 +444,25 @@ p {
 }
 
   /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/
+  #unmasked-friend h1 {
+    margin-top: 0;
+    color: url("../images/OPINION masculinity 1 - Cecily Lo.png");
+    font-size: 75px;
+    text-align: center;
+  }
+
+  #unmasked-friend h2 {
+    color: white;
+    text-align: left;
+  }
+
+  #unmasked-friend {
+      background-color:	#301934;
+  /*    background-image: url("../images/OPINION masculinity 1 - Cecily Lo.png");*/
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+      padding-left: 10vh;
+      border-top: 10px solid white;
+      border-bottom: 40px solid white;
+      color: white
+  }

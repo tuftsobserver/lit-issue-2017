@@ -48,7 +48,7 @@ p {
 
 
 #editor-note {
-  background: url("../images/letter-to-editor-2.png") no-repeat center center fixed; 
+  background: url("../images/letter-to-editor-2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -97,8 +97,8 @@ p {
 #rain #p_text{
   background-image: url("../images/Rain_Cecily_Lo.jpg");
   background-size: auto 70vh;
-  margin-top: 10vh; 
-  margin-bottom: 15vh;   
+  margin-top: 10vh;
+  margin-bottom: 15vh;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -106,24 +106,24 @@ p {
 #rain h1 {
   padding-top: 10vh;
   text-align: left;
-  margin-left: 15vw; 
+  margin-left: 15vw;
 }
 #rain h2 {
   text-align: left;
-  margin-left: 15vw; 
+  margin-left: 15vw;
 }
 
 #rain p {
   text-align: right;
   margin-right: 15vw;
 }
-#rain #p_text { 
-  padding-top: 30vh; 
+#rain #p_text {
+  padding-top: 30vh;
 
 }
 
 #all_grown_up {
-  background: url("../images/Liza_Leonard.png") no-repeat center center fixed; 
+  background: url("../images/Liza_Leonard.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -134,15 +134,15 @@ p {
   /*text-align: bottom-left;*/
   font-size: 90px;
   color: white;
-  text-align: left; 
-  margin-left: 7vw; 
+  text-align: left;
+  margin-left: 7vw;
 }
 
 #all_grown_up h2 {
   text-align: left;
   color: white;
-  padding-bottom: 10%; 
-  margin-left: 7vw; 
+  padding-bottom: 10%;
+  margin-left: 7vw;
   padding-top: 5vh
 }
 
@@ -152,8 +152,8 @@ p {
 
 #all_grown_up .col-sm-4 {
   padding-top: 15vh;
-  background-color: rgb(57, 172, 115); 
-  text-align: center; 
+  background-color: rgb(57, 172, 115);
+  text-align: center;
 }
 
 
@@ -452,7 +452,7 @@ p {
   max-width: 600px;
   height: auto;
   margin: 2rem auto;
-  
+
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -546,9 +546,13 @@ p {
   /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/
   #unmasked-friend h1 {
     margin-top: 0;
-    color: url("../images/OPINION masculinity 1 - Cecily Lo.png");
+    color: gray;
+    background: url("../images/OPINION masculinity 1 - Cecily Lo.png");
     font-size: 75px;
     text-align: center;
+    /* trying to put background image behind text
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
   }
 
   #unmasked-friend h2 {
@@ -558,7 +562,7 @@ p {
 
   #unmasked-friend {
       background-color:	#301934;
-  /*    background-image: url("../images/OPINION masculinity 1 - Cecily Lo.png");*/
+      background-image: url("../images/OPINION masculinity 2 - Cecily Lo.png");
       padding-bottom: 10vh;
       padding-top: 10vh;
       padding-left: 10vh;
@@ -566,3 +570,39 @@ p {
       border-bottom: 40px solid white;
       color: white
   }
+
+#mother {
+  background-image: url("../images/mother.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  border-top: 10px solid white;
+  border-bottom: 40px solid white;
+  text-align: center;
+}
+
+#dreams-allowed h1 {
+  color: white;
+  text-align: left;
+  padding-top: 10vh;
+  font-size: 60px;
+}
+
+#dreams-allowed h2 {
+  color: white;
+  text-align: left;
+  padding-bottom: 1vh;
+  font-weight: lighter;
+}
+
+#dreams-allowed {
+      background-image: url("../images/dreams.jpg");
+      background-size:contain;
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+      padding-left: 30vh;
+      border-top: 10px solid white;
+      border-bottom: 40px solid white;
+      color: white
+}

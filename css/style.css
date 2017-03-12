@@ -803,114 +803,130 @@ h2 {
   }
 }
 
-  /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/
-  #unmasked-friend h1 {
-    margin-top: 0;
-    color: gray;
-    background: url("../images/OPINION masculinity 1 - Cecily Lo.png");
-    font-size: 75px;
-    text-align: center;
-    /* trying to put background image behind text
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-  }
+/* SECTION FIVE START unmasked friend through a future maybe */
 
-  #unmasked-friend h2 {
-    color: white;
-    text-align: left;
-  }
+#unmasked-friend {
+  margin: 0;
+  padding: 4rem;
+  border: 20px solid white;
+  color: white;
+  background-color:	#301934;
+  background-image: url("../images/OPINION masculinity 1 - Cecily Lo.png");
+}
 
+#unmasked-friend h1 {
+  margin-top: 0;
+  font-size: 75px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
   #unmasked-friend {
-      background-color:	#301934;
-      background-image: url("../images/OPINION masculinity 2 - Cecily Lo.png");
-      padding-bottom: 10vh;
-      padding-top: 10vh;
-      padding-left: 10vh;
-      border-top: 10px solid white;
-      border-bottom: 40px solid white;
-      color: white
+    padding: 2rem;
   }
+
+  #unmasked-friend h1 {
+    font-size: 50px;
+  }
+}
+
+/********************/
 
 #mother {
   background-image: url("../images/mother.png");
   background-size: contain;
   background-repeat: no-repeat;
-  padding-bottom: 10vh;
-  padding-top: 10vh;
+  padding: 4rem 2rem;
   text-align: center;
 }
 
-#dreams-allowed h1 {
+#mother .text {
+  background-color: rgba(255,255,255,0.7);
+  display: inline-block;
+}
+
+/********************/
+
+#dreams-allowed {
+  padding: 4rem 2rem;
   color: white;
+  text-align: center;
+  background-image: url("../images/dreams.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dreams-allowed .inner-text {
+  max-width: 35rem;
   text-align: left;
-  padding-top: 10vh;
+  display: inline-block;
+}
+
+#dreams-allowed h1 {
   font-size: 60px;
 }
 
 #dreams-allowed h2 {
-  color: white;
-  text-align: left;
-  padding-bottom: 1vh;
-  font-weight: lighter;
+  padding-bottom: 2rem;
 }
 
-#dreams-allowed {
-      background-image: url("../images/dreams.jpg");
-      background-repeat: no-repeat;
-      background-size:cover;
-      padding-bottom: 10vh;
-      padding-top: 10vh;
-      padding-left: 30vh;
-      border-top: 10px solid white;
-      border-bottom: 40px solid white;
-      color: white
+/********************/
+
+#mother-glass {
+  background-image: url("../images/mother-g1 2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  padding: 4rem 2rem;
+
+  /*border-top: 10px solid white;
+  border-bottom: 40px solid white;*/
 }
 
 #mother-glass h1 {
   color: white;
-  text-align: left;
-  padding-top: 10vh;
   font-size: 60px;
 }
 
 #mother-glass h2 {
   color: white;
-  text-align: left;
-  padding-bottom: 1vh;
-  font-weight: lighter;
 }
 
-#mother-glass {
-      background-image: url("../images/mother-g1 2.jpg");
-      background-repeat: no-repeat;
-      background-size:cover;
-      padding-bottom: 10vh;
-      padding-top: 10vh;
-      padding-left: 30vh;
-      border-top: 10px solid white;
-      border-bottom: 40px solid white;
-      color: white
+#mother-glass .text {
+  display: inline-block;
+  background-color: rgba(255,255,255,0.9);
+  padding: 1rem;
 }
 
-#mother-glass h1 {
-  text-align: left;
-  padding-top: 10vh;
-  font-size: 60px;
+#mother-glass p {
+  color: black;
+  line-height: 2.5;
 }
 
-#mother-glass h2 {
-  text-align: left;
-  padding-bottom: 1vh;
-  font-weight: lighter;
+/********************/
+
+#a-future {
+  padding: 6rem;
 }
 
-#mother-glass {
-      padding-bottom: 10vh;
-      padding-top: 10vh;
-      padding-left: 30vh;
-      border-top: 10px solid white;
-      background-color: white;
+#a-future .row {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
- #bed {
 
- }
+#a-future h1 {
+  margin-top: 0;
+}
+
+#a-future img {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  #a-future {
+    padding: 2rem;
+  }
+}

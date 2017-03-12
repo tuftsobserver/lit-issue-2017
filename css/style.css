@@ -408,7 +408,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  z-index: 10; 
+  z-index: 10;
 }
 
 #aishvarya img {
@@ -780,8 +780,6 @@ p {
   background-repeat: no-repeat;
   padding-bottom: 10vh;
   padding-top: 10vh;
-  border-top: 10px solid white;
-  border-bottom: 40px solid white;
   text-align: center;
 }
 
@@ -801,7 +799,8 @@ p {
 
 #dreams-allowed {
       background-image: url("../images/dreams.jpg");
-      background-size:contain;
+      background-repeat: no-repeat;
+      background-size:cover;
       padding-bottom: 10vh;
       padding-top: 10vh;
       padding-left: 30vh;
@@ -809,3 +808,52 @@ p {
       border-bottom: 40px solid white;
       color: white
 }
+
+#mother-glass h1 {
+  color: white;
+  text-align: left;
+  padding-top: 10vh;
+  font-size: 60px;
+}
+
+#mother-glass h2 {
+  color: white;
+  text-align: left;
+  padding-bottom: 1vh;
+  font-weight: lighter;
+}
+
+#mother-glass {
+      background-image: url("../images/mother-g1 2.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+      padding-left: 30vh;
+      border-top: 10px solid white;
+      border-bottom: 40px solid white;
+      color: white
+}
+
+#mother-glass h1 {
+  text-align: left;
+  padding-top: 10vh;
+  font-size: 60px;
+}
+
+#mother-glass h2 {
+  text-align: left;
+  padding-bottom: 1vh;
+  font-weight: lighter;
+}
+
+#mother-glass {
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+      padding-left: 30vh;
+      border-top: 10px solid white;
+      background-color: white;
+}
+ #bed {
+   
+ }

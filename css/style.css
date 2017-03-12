@@ -13,37 +13,18 @@ section {
   width: 100%;
 }
 
-/*title of article*/
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 36px;
 }
 
-/*author of article*/
-h2{
-	font-family: "Ubuntu", sans-serif;
+h2 {
+  font-family: "Open Sans", sans-serif;
 	font-size: 20px;
 }
-/*article text*/
-p {
 
-}
-
-/*Always do this for sections in your page!*/
-/*keep in order of actual page for organization*/
-
-/*#toc body
-#toc h1
-#toc h2
-
-/*#toc h1
-#toc h2
-#toc p*/
-
-/*<!-- SECTION ONE START letter to editor through all grown up-->
-*/
-
+/* SECTION ONE START letter to editor through all grown up */
 
 #editor-note {
   background: url("../images/letter-to-editor-2.png") no-repeat center center fixed;
@@ -54,71 +35,114 @@ p {
 }
 
 #editor-note h1 {
-  text-align: left;
+  margin-top: 0;
   margin-left: 10%;
+  padding-top: 2rem;
   font-size: 45px;
+  text-align: left;
 }
 
 #editor-note p {
-  margin-right: 20% ;
+  margin-right: 20%;
   margin-left: 40%;
   text-align: right;
 }
 
+#editor-note .signature {
+  padding: 2rem 0;
+}
+
+#editor-note img {
+  height: 4rem;
+  width: auto;
+}
+
+@media (max-width: 1000px) {
+  #editor-note p {
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  #editor-note p {
+    margin: 0 5%;
+  }
+}
+
+/***************/
+
 #spectacle_of_black_life h1 {
-  padding-top: 10%;
-  color: white;
-  text-align:center;
-  text-align: right;
   margin-right: 10%;
+  padding-top: 10%;
+  text-align: right;
+  color: white;
 }
+
 #spectacle_of_black_life h2 {
-    color: white;
-    text-align:center;
-    padding-bottom: 10%;
-    text-align: right;
-    margin-right: 10%;
-}
-
-#black_life_title {
-
-   background-image: url( ../images/black_life_title.jpg);
-   background-position: right;
-   margin-left: 2%;
+  margin-right: 10%;
+  padding-bottom: 10%;
+  text-align: right;
+  color: white;
 }
 
 #spectacle_of_black_life p {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin: 2rem 10%;
+  max-width: 800px;
 }
 
-#rain #p_text{
-  background-image: url("../images/Rain_Cecily_Lo.jpg");
-  background-size: auto 70vh;
+#black_life_title {
+  background-image: url( ../images/black_life_title.jpg);
+  background-position: right;
+  margin-left: 2%;
+}
+
+#spectacle_of_black_life img {
+  width: 100%;
+  height: auto;
+  align: center;
+}
+
+@media (min-width: 900px) {
+  #spectacle_of_black_life p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
+}
+
+/***************/
+
+#rain #p_text {
   margin-top: 10vh;
   margin-bottom: 15vh;
+  padding-top: 30vh;
+  background-image: url("../images/Rain_Cecily_Lo.jpg");
+  background-size: auto 70vh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #rain h1 {
+  margin-left: 15vw;
   padding-top: 10vh;
   text-align: left;
-  margin-left: 15vw;
 }
+
 #rain h2 {
-  text-align: left;
   margin-left: 15vw;
+  text-align: left;
 }
 
 #rain p {
-  text-align: right;
   margin-right: 15vw;
+  text-align: right;
 }
-#rain #p_text {
-  padding-top: 30vh;
 
+#rain .white {
+  background-color: rgba(255,255,255,0.5);
 }
+
+/***************/
 
 #all_grown_up {
   background: url("../images/Liza_Leonard.png") no-repeat center center fixed;
@@ -128,56 +152,64 @@ p {
   background-size: cover;
 }
 
-#all_grown_up h1 {
-  /*text-align: bottom-left;*/
-  font-size: 90px;
-  color: white;
-  text-align: left;
-  margin-left: 7vw;
-}
-
-#all_grown_up h2 {
-  text-align: left;
-  color: white;
-  padding-bottom: 10%;
-  margin-left: 7vw;
-  padding-top: 5vh
-}
-
-#all_grown_up p{
-  color: white;
+#all_grown_up .row {
+  width: 100%;
+  margin: 0;
 }
 
 #all_grown_up .col-sm-4 {
   padding-top: 15vh;
-  background-color: rgb(57, 172, 115);
+  padding-bottom: 15vh;
   text-align: center;
+  background-color: rgb(57, 172, 115);
 }
 
-
-
-
-
-
-
- /* <!-- SECTION TWO START etsi udiditlv through blackberries & brown sugar-->*/
-#etsi {
-  /*margin-left: 20vw;*/
-  /*adding-bottom: 20vh;
-  padding-top: 20vh;*/
+#all_grown_up h1 {
+  margin-left: 7vw;
+  font-size: 90px;
+  text-align: left;
+  color: white;
 }
+
+#all_grown_up h2 {
+  margin-left: 7vw;
+  padding-top: 5vh;
+  padding-bottom: 10%;
+  text-align: left;
+  color: white;
+}
+
+#all_grown_up p {
+  color: white;
+}
+
+#all_grown_up .title {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #all_grown_up .col-sm-4 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #all_grown_up h1 {
+    margin-left: 7vw;
+    font-size: 60px;
+    text-align: left;
+    color: white;
+  }
+}
+
+/* SECTION TWO START etsi udiditlv through blackberries & brown sugar */
 
 #etsi h1 {
-  color: #542718;
-  /*text-align: ;*/
-  margin-right: 10vw;
   font-size: 60px;
+  color: #542718;
 }
 
 #etsi h2 {
   color: #542718;
-  /*text-align: right;*/
-  margin-right: 10vw;
 }
 
 #etsi p {
@@ -185,10 +217,9 @@ p {
 }
 
 .etsi-text {
-  margin-top: 5vh;
   width: 55vw;
+  margin-top: 5vh;
   margin-bottom: 20vh;
-  /*border: 1px solid red;*/
 }
 
 #etsi img {
@@ -197,14 +228,11 @@ p {
 
 #etsi div {
   display: inline-block;
-  /*border: 1px solid blue;*/
 }
 
 .etsi-title {
-  width: 45vw;
   margin-left: 55vw;
   padding-top: 450px;
-  /*margin-top: 70vh;*/
 }
 
 .etsi-image {
@@ -216,6 +244,8 @@ p {
   background-size: 60vw;
   background-repeat: no-repeat;
   background-position: left top, right bottom;
+
+  width: 100%;
 }
 
 
@@ -302,7 +332,7 @@ p {
 
 #blackberries {
   background-image: url("../images/blackberries-1.jpg");
-  background-size: 100vw;
+  background-size: 100%;
   opacity: 1;
   text-align: center;
   padding-top: 15vh;
@@ -327,11 +357,9 @@ p {
 
 /**************** CARISSA *******************/
 #carissa h1 {
-  font-family: "Raleway", sans-serif;
   font-size: 54px;
 }
 #carissa h2 {
-  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 #carissa .blank_space {
@@ -371,7 +399,7 @@ p {
 }
 
 #carissa #summer_img {
-  width: 100vw;
+  width: 100%;
   margin-top: -100vh;
   z-index: -10;
 }
@@ -463,12 +491,10 @@ p {
 /************************* EMILY ****************************/
 
 #emily h1 {
-  font-family: "Raleway", sans-serif;
   font-size: 54px;
 }
 
 #emily h2 {
-  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
@@ -494,12 +520,10 @@ p {
 }
 
 #tiara_anon h1 {
-  font-family: "Raleway", sans-serif;
   font-size: 54px;
 }
 
 #tiara_anon h2 {
-  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 

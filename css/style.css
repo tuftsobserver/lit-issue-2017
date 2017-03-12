@@ -394,12 +394,10 @@ p {
 }
 
 #aishvarya h1 {
-  font-family: "Raleway", sans-serif;
   font-size: 54px;
 }
 
 #aishvarya h2 {
-  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
@@ -409,6 +407,8 @@ p {
   margin-left: auto;
   position: relative;
   z-index: 10;
+
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #aishvarya img {
@@ -425,14 +425,14 @@ p {
 #aishvarya #pelican {
   position: absolute;
   height: 400px;
-  left: 0px;
+  left: 0;
   top: 100vh;
   z-index: 2;
 }
 #aishvarya #heron{
   position: absolute;
-  left: 80vw;
-  top: 0vh;
+  right: 0;
+  top: 0;
   z-index: 3;
 }
 #aishvarya #bee {
@@ -444,7 +444,7 @@ p {
 }
 #aishvarya #butterfly {
   position: absolute;
-  left: 72vw;
+  right: 0;
   top: 115vh;
   z-index: 5;
 }
@@ -855,5 +855,5 @@ p {
       background-color: white;
 }
  #bed {
-   
+
  }

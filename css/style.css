@@ -44,12 +44,13 @@ p {
 /*<!-- SECTION ONE START letter to editor through all grown up-->
 */
 
-/*helpful: https://www.w3schools.com/cssref/pr_background-position.asp*/
-#editor-note {
-  background-image: url(../images/letter-to-editor-2.png);
-  background-repeat: no-repeat;
 
- /* background-position: 0% 100%;*/
+#editor-note {
+  background: url("../images/letter-to-editor-2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #editor-note h1 {
@@ -61,7 +62,7 @@ p {
 #editor-note p {
   margin-right: 20% ;
   margin-left: 40%;
-  text-align: left;
+  text-align: right;
 }
 
 #spectacle_of_black_life h1 {
@@ -90,6 +91,72 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+#rain #p_text{
+  background-image: url("../images/Rain_Cecily_Lo.jpg");
+  background-size: auto 70vh;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#rain h1 {
+  padding-top: 10vh;
+  text-align: left;
+  margin-left: 15vw;
+}
+#rain h2 {
+  text-align: left;
+  margin-left: 15vw;
+}
+
+#rain p {
+  text-align: right;
+  margin-right: 15vw;
+}
+#rain #p_text {
+  padding-top: 30vh;
+
+}
+
+#all_grown_up {
+  background: url("../images/Liza_Leonard.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#all_grown_up h1 {
+  /*text-align: bottom-left;*/
+  font-size: 90px;
+  color: white;
+  text-align: left;
+  margin-left: 7vw;
+}
+
+#all_grown_up h2 {
+  text-align: left;
+  color: white;
+  padding-bottom: 10%;
+  margin-left: 7vw;
+  padding-top: 5vh
+}
+
+#all_grown_up p{
+  color: white;
+}
+
+#all_grown_up .col-sm-4 {
+  padding-top: 15vh;
+  background-color: rgb(57, 172, 115);
+  text-align: center;
+}
+
+
+
+
 
 
 
@@ -566,13 +633,12 @@ p {
 /*----------------*/
 
 #keep-love {
-  background: url(../images/gray-bg.png) no-repeat center center fixed;
+  padding: 2rem;
+  background: url(../images/gray-bg.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  padding: 2rem;
 }
 
 #keep-love h1 {
@@ -601,36 +667,70 @@ p {
   }
 }
 
-
 /*----------------*/
 
 #colored-women {
+  margin: 0;
+  padding: 2rem;
   text-align: center;
-  background: white;
+  color: white;
+
+  background: url(../images/clouds1.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #colored-women h1 {
   margin-top: 0;
+  font-size: 60px;
 }
 
+#colored-women .clouds2 {
+  height: 15rem;
+  width: 100%;
+
+  background: url(../images/clouds2.jpg) no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#colored-women .clouds1 {
+  height: 15rem;
+  width: 100%;
+  margin: 1rem 0;
+
+  background: url(../images/clouds2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*----------------*/
 
 #guide-parents {
   padding: 2rem 0;
-  background-color: black;
+  background: url(../images/bedroom.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #guide-parents h1 {
   margin-top: 0;
-  color: white;
   font-size: 75px;
   text-align: center;
+  color: white;
 }
 
 #guide-parents h2 {
-  color: white;
   text-align: center;
+  color: white;
 }
 
 #guide-parents p {
@@ -647,3 +747,65 @@ p {
 }
 
   /*<!-- SECTION FIVE START unmasked friend through a future maybe-->*/
+  #unmasked-friend h1 {
+    margin-top: 0;
+    color: gray;
+    background: url("../images/OPINION masculinity 1 - Cecily Lo.png");
+    font-size: 75px;
+    text-align: center;
+    /* trying to put background image behind text
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+
+  #unmasked-friend h2 {
+    color: white;
+    text-align: left;
+  }
+
+  #unmasked-friend {
+      background-color:	#301934;
+      background-image: url("../images/OPINION masculinity 2 - Cecily Lo.png");
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+      padding-left: 10vh;
+      border-top: 10px solid white;
+      border-bottom: 40px solid white;
+      color: white
+  }
+
+#mother {
+  background-image: url("../images/mother.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  border-top: 10px solid white;
+  border-bottom: 40px solid white;
+  text-align: center;
+}
+
+#dreams-allowed h1 {
+  color: white;
+  text-align: left;
+  padding-top: 10vh;
+  font-size: 60px;
+}
+
+#dreams-allowed h2 {
+  color: white;
+  text-align: left;
+  padding-bottom: 1vh;
+  font-weight: lighter;
+}
+
+#dreams-allowed {
+      background-image: url("../images/dreams.jpg");
+      background-size:contain;
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+      padding-left: 30vh;
+      border-top: 10px solid white;
+      border-bottom: 40px solid white;
+      color: white
+}

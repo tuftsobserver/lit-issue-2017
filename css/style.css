@@ -1094,25 +1094,41 @@ ul {
   }
 }
 
-#parting h1{
+#parting .row {
+  max-width: 100%;
+}
+
+#parting h1 {
   margin-top: 0;
   text-align: left;
 }
 
+#parting img {
+  padding: 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #parting .col-sm-5 {
   text-align: center;
-  margin-bottom: 25vh; 
+  margin-bottom: 25vh;
+  max-width: 100%;
+}
+
+#parting .col-sm-7 {
+  padding: 2rem;
+}
+
+#back_to_O a {
+  color: black;
 }
 
 #back_to_O {
   text-align: center;
-  font-size: 40px; 
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
   font-style: italic;
   margin-bottom: 25vh;
 }
-/*#parting .col-sm-7 {
-  margin-left: 10vw;
-}*/
-
-
-
